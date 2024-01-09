@@ -1,0 +1,13 @@
+<div class="item">
+  <div class="item-name">
+    {{ item.shortName }}
+  </div>
+  <img [src]="item.inspectImageLink" alt="" />
+  <input
+    [(ngModel)]="checkboxInput"
+    type="checkbox"
+    name="{{ item.shortName }}-check"
+    id="item-checkbox"
+  />
+  {{ checkboxInput }}
+</div>

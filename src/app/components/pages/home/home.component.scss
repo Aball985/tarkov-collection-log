@@ -1,0 +1,25 @@
+.barter-items {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 2rem;
+  // background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  // height: 75rem;
+}
+.home-content{
+  text-align: center;
+}
+
+.top-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  // background-color: #000;
+  color: #fff;
+}

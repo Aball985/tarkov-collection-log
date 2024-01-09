@@ -1,0 +1,16 @@
+.item{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  width: 15rem;
+  margin: 1rem;
+  .item-name{
+    width: max-content;
+  }
+}
+
+#item-checkbox{
+  width: 3rem;
+  height: 3rem;
+}
